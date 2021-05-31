@@ -30,10 +30,10 @@ getValue() {
 version=${MongoDBVersion}
 
 if [ -z "$version" ] ; then
-  version="4.2"
+  version="4.4"
 fi
 
-if [ "$version" == "4.0" ] || [ "$version" == "4.2" ];
+if [ "$version" == "4.0" ] || [ "$version" == "4.4" ];
 then
 echo "[mongodb-org-${version}]
 name=MongoDB Repository
