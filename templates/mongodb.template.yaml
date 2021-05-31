@@ -84,8 +84,9 @@ Parameters:
   MongoDBVersion:
     Description: MongoDB version
     Type: String
-    Default: '4.2'
+    Default: '4.4'
     AllowedValues:
+      - '4.4'
       - '4.2'
       - '4.0'
       - '3.6'
